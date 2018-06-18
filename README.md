@@ -10,3 +10,16 @@ It extracts all URLs into a CSV file. Only URLs of the same domain.
 This script was used to [generate a page rank](https://github.com/georgerappel/page-rank) for a university assignment,
 It can also be used to generate a adjacency matrix, graphs, and
 many other data structures that require links between pages in a domain.
+
+### Running the script
+
+Install scrapy using pip:
+
+`sudo pip install scrapy`
+
+Run the bash file to start scraping:
+
+`bash start_scraper.sh`
+
+If you `CTRL + C` during the process, some URLs will be saved anyway
+in the output file.
